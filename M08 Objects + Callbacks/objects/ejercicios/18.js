@@ -3,6 +3,13 @@ function agregarAmigo(objetoUsuario, nuevoAmigo) {
   // Debes agregar el "nuevoAmigo" al final de este arreglo.
   // Retornar el objeto.
   // Tu código:
+  //var aminuevo= 
+ // console.log(objetoUsuario,nuevoAmigo);
+
+  objetoUsuario.amigos.push(nuevoAmigo);
+//console.log('sal',objetoUsuario,nuevoAmigo);
+
+  return objetoUsuario;
 }
 
 module.exports = agregarAmigo;
